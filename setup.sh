@@ -3,5 +3,6 @@
 echo "Installing Aaron.nvim..."
 cd ~/
 git clone https://github.com/aaronlsh-png/Aaron.nvim
-mv ./Aaron.nvim/nvim ~/.config/
+mkdir ~/.config/nvim
+mv ./Aaron.nvim/nvim ~/.config/nvim
 rm -rf ~/Aaron.nvim
